@@ -1,0 +1,23 @@
+{
+  "name": "frenzymailer",
+  "version": "1.0.0",
+  "description": "CLI mass-mailer with SMTP (FrenzyMailer)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "frenzymailer": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^11.0.0",
+    "csv-parse": "^5.6.0",
+    "inquirer": "^13.0.1",
+    "nodemailer": "^6.10.1",
+    "p-limit": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

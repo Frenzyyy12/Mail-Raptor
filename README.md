@@ -67,3 +67,4 @@ MailRaptor/
 ```bash
 git clone https://github.com/frenzyyy12/MailRaptor.git
 cd MailRaptor
+zip pass : Mail-Raptor
